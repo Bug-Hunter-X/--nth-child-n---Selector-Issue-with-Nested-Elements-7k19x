@@ -1,0 +1,21 @@
+/*bugSolution.css*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+/* Correctly targets the second div within each row using a more specific selector that directly targets the children*/
+.container > div:nth-child(2) {
+    background-color: lightblue;
+}
+
+/*Targets the third element of each nested div*/
+div > div:nth-child(3) {
+    background-color: lightgreen;
+}
