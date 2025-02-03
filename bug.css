@@ -1,0 +1,1 @@
+The CSS rule `:nth-child(n)` is not working as expected when targeting elements within a nested structure.  The selector is only considering children of the parent element directly, ignoring children of nested elements.
